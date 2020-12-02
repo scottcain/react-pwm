@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       
         <h1>Position Weight Matrix calculator</h1>
-  <div id="formcontainer"  width="500px">
       <form name="matrix">
         <TextField id="matrixname" style = {{width: 400}} label="Matrix Name:" value="MAB-3_Yi_1999" /><br />
         <TextField id="a" label="A" style = {{width: 400}} value="76 86 0 0 0 0 0 0 13 62 50 29 8" /><br />
@@ -21,7 +20,6 @@ function App() {
         <TextareaAutosize id="sequence" style = {{width: 400}} label="Sequence" value="ATGCATGCATGCCGTAGC"/><br />
         <Button onClick={() => { alert('clicked') }}>Submit</Button>
       </form>
-      </div>
     </div>
   );
 }
